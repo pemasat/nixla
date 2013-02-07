@@ -1,0 +1,14 @@
+#Options +FollowSymlinks
+RewriteEngine on
+
+RewriteBase /www/
+
+# configure PHP
+php_flag magic_quotes_gpc off
+php_flag register_globals off
+php_value max_execution_time 60
+
+
+# front controller
+RewriteRule (.*)$ index.php [L]
+
