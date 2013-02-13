@@ -29,13 +29,42 @@ $configurator->addConfig(__DIR__ . '/config/config.neon');
 $container = $configurator->createContainer();
 
 // Setup router
+/*
 $dynamicRoute->router[] = new DynamicRoute('<url>', array(
 	'presenter' => 'Frontend',
 	'action' => 'default'
 ));
-\Nette\Diagnostics\FireLogger::log($dynamicRoute);
-$dynamicRoute->context = $container;
-$container->router[] = $dynamicRoute;
+*/
+
+/*
+$route = new Route('<presenter>/<action>/<id>', array(
+    'presenter' => array(
+        Route::VALUE => 'Homepage',
+        Route::FILTER_IN => 'filterInFunc',
+        Route::FILTER_OUT => 'filterOutFunc',
+    ),
+    'action' => 'default',
+    'id' => NULL,
+));
+*/
+
+
+// $dynamicRoute->context = $container;
+
+
+
+// $dynamicRoute->context = $container;
+$container->router[] = new DynamicRoute('/<path .+>', array(
+    'presenter' => 'Homepage',
+    'action' => 'default',
+    'path' => array(
+        Route::VALUE => NULL,
+        Route::FILTER_IN => callback($container->pages, 'getIdByUrl'),
+        Route::FILTER_OUT => callback($container->pages, 'getUrlById'),
+    ),
+));
+
+
 $container->router[] = new Route('index.php', 'Homepage:default', Route::ONE_WAY);
 $container->router[] = new Route('<presenter>/<action>[/<id>]', 'Homepage:default');
 

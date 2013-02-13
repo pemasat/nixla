@@ -10,9 +10,11 @@ use \Nette\Utils\Finder;
 class FrontendPresenter extends BasePresenter {
 
 	public function renderDefault() {
+		\Nette\Diagnostics\FireLogger::log('555555555555555555555555555');
 	}
 	
 	public function renderCache() {
+		\Nette\Diagnostics\FireLogger::log('44444444444444444444');
 		$dir = WWW_DIR . '/../web/zefola.cz/cache/';
 		foreach (Finder::findFiles('*.pdf')->in($dir) as $key => $file) {
 			//header('Content-Disposition: attachment; filename='.basename($file));

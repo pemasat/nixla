@@ -3,7 +3,7 @@
 /**
  * Homepage presenter.
  *
- * @author     John Doe
+ * @author     petr.masat
  * @package    MyApplication
  */
 class HomepagePresenter extends BasePresenter

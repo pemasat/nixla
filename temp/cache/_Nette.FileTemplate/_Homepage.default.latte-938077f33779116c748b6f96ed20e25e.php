@@ -1,16 +1,16 @@
-<?php //netteCache[01]000374a:2:{s:4:"time";s:21:"0.78836600 1340920632";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:52:"/var/www/zefola/app/templates/Homepage/default.latte";i:2;i:1337110724;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:30:"eb558ae released on 2012-04-04";}}}?><?php
+<?php //netteCache[01]000373a:2:{s:4:"time";s:21:"0.83430400 1360708759";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:51:"/var/www/nixla/app/templates/Homepage/default.latte";i:2;i:1337110724;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:30:"eb558ae released on 2012-04-04";}}}?><?php
 
-// source file: /var/www/zefola/app/templates/Homepage/default.latte
+// source file: /var/www/nixla/app/templates/Homepage/default.latte
 
 ?><?php
 // prolog Nette\Latte\Macros\CoreMacros
-list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, 'wp0ml9k8fc')
+list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, '6qzkrthe3g')
 ;
 // prolog Nette\Latte\Macros\UIMacros
 //
 // block content
 //
-if (!function_exists($_l->blocks['content'][] = '_lb744c8b99f2_content')) { function _lb744c8b99f2_content($_l, $_args) { extract($_args)
+if (!function_exists($_l->blocks['content'][] = '_lb6fda8fe354_content')) { function _lb6fda8fe354_content($_l, $_args) { extract($_args)
 ?><div id="banner">
 	<h1>Congratulations!</h1>
 </div>
@@ -78,7 +78,7 @@ if (!function_exists($_l->blocks['content'][] = '_lb744c8b99f2_content')) { func
 //
 // block head
 //
-if (!function_exists($_l->blocks['head'][] = '_lbeba4eff07f_head')) { function _lbeba4eff07f_head($_l, $_args) { extract($_args)
+if (!function_exists($_l->blocks['head'][] = '_lbb8b458c53e_head')) { function _lbb8b458c53e_head($_l, $_args) { extract($_args)
 ?><style>
 html { overflow-y: scroll; }
 body { font: 14px/1.65 Verdana, "Geneva CE", lucida, sans-serif; background: #3484d2; color: #333; margin: 38px auto; max-width: 940px; min-width: 770px; }

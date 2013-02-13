@@ -1,16 +1,16 @@
-<?php //netteCache[01]000365a:2:{s:4:"time";s:21:"0.84782700 1340920632";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:43:"/var/www/zefola/app/templates/@layout.latte";i:2;i:1337110724;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:30:"eb558ae released on 2012-04-04";}}}?><?php
+<?php //netteCache[01]000364a:2:{s:4:"time";s:21:"0.89399700 1360708759";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:42:"/var/www/nixla/app/templates/@layout.latte";i:2;i:1337110724;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:30:"eb558ae released on 2012-04-04";}}}?><?php
 
-// source file: /var/www/zefola/app/templates/@layout.latte
+// source file: /var/www/nixla/app/templates/@layout.latte
 
 ?><?php
 // prolog Nette\Latte\Macros\CoreMacros
-list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, '02mn52td1f')
+list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, 'woyzaitrjs')
 ;
 // prolog Nette\Latte\Macros\UIMacros
 //
 // block head
 //
-if (!function_exists($_l->blocks['head'][] = '_lb51af82a950_head')) { function _lb51af82a950_head($_l, $_args) { extract($_args)
+if (!function_exists($_l->blocks['head'][] = '_lb7e01d815c6_head')) { function _lb7e01d815c6_head($_l, $_args) { extract($_args)
 ;
 }}
 

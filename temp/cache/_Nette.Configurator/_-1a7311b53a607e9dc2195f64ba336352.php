@@ -1,5 +1,5 @@
-<?php //netteCache[01]006540a:2:{s:4:"time";s:21:"0.30517000 1344976513";s:9:"callbacks";a:43:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:38:"/var/www/zefola/app/config/config.neon";i:2;i:1344976503;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:44:"/var/www/zefola/libs/Nette/common/Object.php";i:2;i:1337110842;}i:2;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:56:"/var/www/zefola/libs/Nette/Caching/Storages/IJournal.php";i:2;i:1337110842;}i:3;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:59:"/var/www/zefola/libs/Nette/Caching/Storages/FileJournal.php";i:2;i:1337110842;}i:4;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:47:"/var/www/zefola/libs/Nette/Caching/IStorage.php";i:2;i:1337110842;}i:5;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:59:"/var/www/zefola/libs/Nette/Caching/Storages/FileStorage.php";i:2;i:1337110842;}i:6;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:50:"/var/www/zefola/libs/Nette/Http/RequestFactory.php";i:2;i:1337110842;}i:7;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:44:"/var/www/zefola/libs/Nette/Http/IRequest.php";i:2;i:1337110842;}i:8;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:43:"/var/www/zefola/libs/Nette/Http/Request.php";i:2;i:1337110842;}i:9;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:45:"/var/www/zefola/libs/Nette/Http/IResponse.php";i:2;i:1337110842;}i:10;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:44:"/var/www/zefola/libs/Nette/Http/Response.php";i:2;i:1337110842;}i:11;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:43:"/var/www/zefola/libs/Nette/Http/Context.php";i:2;i:1337110842;}i:12;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:43:"/var/www/zefola/libs/Nette/Http/Session.php";i:2;i:1337110842;}i:13;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:52:"/var/www/zefola/libs/Nette/Security/IUserStorage.php";i:2;i:1337110842;}i:14;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:47:"/var/www/zefola/libs/Nette/Http/UserStorage.php";i:2;i:1337110842;}i:15;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:44:"/var/www/zefola/libs/Nette/Security/User.php";i:2;i:1337110842;}i:16;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:54:"/var/www/zefola/libs/Nette/Application/Application.php";i:2;i:1337110842;}i:17;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:60:"/var/www/zefola/libs/Nette/Application/IPresenterFactory.php";i:2;i:1337110842;}i:18;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:59:"/var/www/zefola/libs/Nette/Application/PresenterFactory.php";i:2;i:1337110842;}i:19;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:47:"/var/www/zefola/libs/Nette/common/ArrayList.php";i:2;i:1337110842;}i:20;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:50:"/var/www/zefola/libs/Nette/Application/IRouter.php";i:2;i:1337110842;}i:21;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:60:"/var/www/zefola/libs/Nette/Application/Routers/RouteList.php";i:2;i:1337110842;}i:22;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:43:"/var/www/zefola/libs/Nette/Mail/IMailer.php";i:2;i:1337110842;}i:23;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:50:"/var/www/zefola/libs/Nette/Mail/SendmailMailer.php";i:2;i:1337110842;}i:24;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:48:"/var/www/zefola/libs/Nette/DI/NestedAccessor.php";i:2;i:1337110842;}i:25;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:50:"/var/www/zefola/libs/Nette/Database/Connection.php";i:2;i:1337110842;}i:26;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:54:"/var/www/zefola/libs/Nette/Security/IAuthenticator.php";i:2;i:1337110842;}i:27;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:44:"/var/www/zefola/app/models/Authenticator.php";i:2;i:1337110724;}i:28;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:53:"/var/www/zefola/libs/Nette/common/FreezableObject.php";i:2;i:1337110842;}i:29;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:48:"/var/www/zefola/libs/Nette/common/IFreezable.php";i:2;i:1337110842;}i:30;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:44:"/var/www/zefola/libs/Nette/DI/IContainer.php";i:2;i:1337110842;}i:31;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:43:"/var/www/zefola/libs/Nette/DI/Container.php";i:2;i:1337110842;}i:32;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:67:"/var/www/zefola/libs/Nette/Application/Diagnostics/RoutingPanel.php";i:2;i:1337110842;}i:33;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:41:"/var/www/zefola/libs/Nette/Forms/Form.php";i:2;i:1337110842;}i:34;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:46:"/var/www/zefola/libs/Nette/common/Callback.php";i:2;i:1337110842;}i:35;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:44:"/var/www/zefola/libs/Nette/Caching/Cache.php";i:2;i:1337110842;}i:36;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:71:"/var/www/zefola/libs/Nette/Database/Reflection/DiscoveredReflection.php";i:2;i:1337110842;}i:37;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:43:"/var/www/zefola/libs/Nette/Latte/Engine.php";i:2;i:1337110842;}i:38;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:43:"/var/www/zefola/libs/Nette/Mail/Message.php";i:2;i:1337110842;}i:39;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:54:"/var/www/zefola/libs/Nette/Templating/FileTemplate.php";i:2;i:1337110842;}i:40;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:50:"/var/www/zefola/libs/Nette/Templating/Template.php";i:2;i:1337110842;}i:41;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:61:"/var/www/zefola/libs/Nette/Security/Diagnostics/UserPanel.php";i:2;i:1337110842;}i:42;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:51:"/var/www/zefola/libs/XDebug-Helper/XDebugHelper.php";i:2;i:1327795538;}}}?><?php
-// source: /var/www/zefola/app/config/config.neon development
+<?php //netteCache[01]006633a:2:{s:4:"time";s:21:"0.16032600 1360708759";s:9:"callbacks";a:44:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:37:"/var/www/nixla/app/config/config.neon";i:2;i:1360707720;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:43:"/var/www/nixla/libs/Nette/common/Object.php";i:2;i:1337110842;}i:2;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:55:"/var/www/nixla/libs/Nette/Caching/Storages/IJournal.php";i:2;i:1337110842;}i:3;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:58:"/var/www/nixla/libs/Nette/Caching/Storages/FileJournal.php";i:2;i:1337110842;}i:4;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:46:"/var/www/nixla/libs/Nette/Caching/IStorage.php";i:2;i:1337110842;}i:5;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:58:"/var/www/nixla/libs/Nette/Caching/Storages/FileStorage.php";i:2;i:1337110842;}i:6;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:49:"/var/www/nixla/libs/Nette/Http/RequestFactory.php";i:2;i:1337110842;}i:7;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:43:"/var/www/nixla/libs/Nette/Http/IRequest.php";i:2;i:1337110842;}i:8;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:42:"/var/www/nixla/libs/Nette/Http/Request.php";i:2;i:1337110842;}i:9;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:44:"/var/www/nixla/libs/Nette/Http/IResponse.php";i:2;i:1337110842;}i:10;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:43:"/var/www/nixla/libs/Nette/Http/Response.php";i:2;i:1337110842;}i:11;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:42:"/var/www/nixla/libs/Nette/Http/Context.php";i:2;i:1337110842;}i:12;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:42:"/var/www/nixla/libs/Nette/Http/Session.php";i:2;i:1337110842;}i:13;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:51:"/var/www/nixla/libs/Nette/Security/IUserStorage.php";i:2;i:1337110842;}i:14;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:46:"/var/www/nixla/libs/Nette/Http/UserStorage.php";i:2;i:1337110842;}i:15;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:43:"/var/www/nixla/libs/Nette/Security/User.php";i:2;i:1337110842;}i:16;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:53:"/var/www/nixla/libs/Nette/Application/Application.php";i:2;i:1337110842;}i:17;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:59:"/var/www/nixla/libs/Nette/Application/IPresenterFactory.php";i:2;i:1337110842;}i:18;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:58:"/var/www/nixla/libs/Nette/Application/PresenterFactory.php";i:2;i:1337110842;}i:19;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:46:"/var/www/nixla/libs/Nette/common/ArrayList.php";i:2;i:1337110842;}i:20;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:49:"/var/www/nixla/libs/Nette/Application/IRouter.php";i:2;i:1337110842;}i:21;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:59:"/var/www/nixla/libs/Nette/Application/Routers/RouteList.php";i:2;i:1337110842;}i:22;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:42:"/var/www/nixla/libs/Nette/Mail/IMailer.php";i:2;i:1337110842;}i:23;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:49:"/var/www/nixla/libs/Nette/Mail/SendmailMailer.php";i:2;i:1337110842;}i:24;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:47:"/var/www/nixla/libs/Nette/DI/NestedAccessor.php";i:2;i:1337110842;}i:25;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:49:"/var/www/nixla/libs/Nette/Database/Connection.php";i:2;i:1337110842;}i:26;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:35:"/var/www/nixla/app/models/Pages.php";i:2;i:1360708549;}i:27;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:53:"/var/www/nixla/libs/Nette/Security/IAuthenticator.php";i:2;i:1337110842;}i:28;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:43:"/var/www/nixla/app/models/Authenticator.php";i:2;i:1337110724;}i:29;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:52:"/var/www/nixla/libs/Nette/common/FreezableObject.php";i:2;i:1337110842;}i:30;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:47:"/var/www/nixla/libs/Nette/common/IFreezable.php";i:2;i:1337110842;}i:31;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:43:"/var/www/nixla/libs/Nette/DI/IContainer.php";i:2;i:1337110842;}i:32;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:42:"/var/www/nixla/libs/Nette/DI/Container.php";i:2;i:1337110842;}i:33;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:66:"/var/www/nixla/libs/Nette/Application/Diagnostics/RoutingPanel.php";i:2;i:1337110842;}i:34;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:40:"/var/www/nixla/libs/Nette/Forms/Form.php";i:2;i:1337110842;}i:35;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:45:"/var/www/nixla/libs/Nette/common/Callback.php";i:2;i:1337110842;}i:36;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:43:"/var/www/nixla/libs/Nette/Caching/Cache.php";i:2;i:1337110842;}i:37;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:70:"/var/www/nixla/libs/Nette/Database/Reflection/DiscoveredReflection.php";i:2;i:1337110842;}i:38;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:42:"/var/www/nixla/libs/Nette/Latte/Engine.php";i:2;i:1337110842;}i:39;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:42:"/var/www/nixla/libs/Nette/Mail/Message.php";i:2;i:1337110842;}i:40;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:53:"/var/www/nixla/libs/Nette/Templating/FileTemplate.php";i:2;i:1337110842;}i:41;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:49:"/var/www/nixla/libs/Nette/Templating/Template.php";i:2;i:1337110842;}i:42;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:60:"/var/www/nixla/libs/Nette/Security/Diagnostics/UserPanel.php";i:2;i:1337110842;}i:43;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:50:"/var/www/nixla/libs/XDebug-Helper/XDebugHelper.php";i:2;i:1327795538;}}}?><?php
+// source: /var/www/nixla/app/config/config.neon development
 
 /**
  * @property Nette\Application\Application $application
@@ -11,6 +11,7 @@
  * @property Nette\Http\Request $httpRequest
  * @property Nette\Http\Response $httpResponse
  * @property SystemContainer_nette $nette
+ * @property Test\Pages $pages
  * @property Nette\DI\NestedAccessor $php
  * @property Nette\Application\Routers\RouteList $router
  * @property Nette\Http\Session $session
@@ -20,7 +21,7 @@ class SystemContainer extends Nette\DI\Container
 {
 
 	public $classes = array(
-		'nette\\object' => FALSE, //: nette.cacheJournal, cacheStorage, nette.httpRequestFactory, httpRequest, httpResponse, nette.httpContext, session, nette.userStorage, user, application, router, nette.mailer, nette.database, authenticator, container,
+		'nette\\object' => FALSE, //: nette.cacheJournal, cacheStorage, nette.httpRequestFactory, httpRequest, httpResponse, nette.httpContext, session, nette.userStorage, user, application, router, nette.mailer, nette.database, pages, authenticator, container,
 		'nette\\caching\\storages\\ijournal' => 'nette.cacheJournal',
 		'nette\\caching\\storages\\filejournal' => 'nette.cacheJournal',
 		'nette\\caching\\istorage' => 'cacheStorage',
@@ -50,6 +51,7 @@ class SystemContainer extends Nette\DI\Container
 		'nette\\di\\nestedaccessor' => 'nette.database',
 		'pdo' => 'nette.database.default',
 		'nette\\database\\connection' => 'nette.database.default',
+		'test\\pages' => 'pages',
 		'nette\\security\\iauthenticator' => 'authenticator',
 		'authenticator' => 'authenticator',
 		'nette\\freezableobject' => 'container',
@@ -64,8 +66,8 @@ class SystemContainer extends Nette\DI\Container
 	public function __construct()
 	{
 		parent::__construct(array(
-			'appDir' => '/var/www/zefola/app',
-			'wwwDir' => '/var/www/zefola/www',
+			'appDir' => '/var/www/nixla/app',
+			'wwwDir' => '/var/www/nixla/www',
 			'debugMode' => TRUE,
 			'productionMode' => FALSE,
 			'environment' => 'development',
@@ -74,13 +76,10 @@ class SystemContainer extends Nette\DI\Container
 				'class' => 'SystemContainer',
 				'parent' => 'Nette\\DI\\Container',
 			),
-			'tempDir' => '/var/www/zefola/app/../temp',
+			'tempDir' => '/var/www/nixla/app/../temp',
 			'database' => array(
-				'driver' => 'pdo',
-				'host' => 'localhost',
-				'dbname' => 'test',
-				'user' => NULL,
-				'password' => NULL,
+				'driver' => 'sqlite',
+				'host' => '/var/www/nixla/app/db/share.db',
 			),
 		));
 	}
@@ -115,7 +114,7 @@ class SystemContainer extends Nette\DI\Container
 	 */
 	protected function createServiceCacheStorage()
 	{
-		$service = new Nette\Caching\Storages\FileStorage('/var/www/zefola/app/../temp/cache', $this->getService('nette.cacheJournal'));
+		$service = new Nette\Caching\Storages\FileStorage('/var/www/nixla/app/../temp/cache', $this->getService('nette.cacheJournal'));
 		return $service;
 	}
 
@@ -227,7 +226,7 @@ class SystemContainer extends Nette\DI\Container
 	 */
 	protected function createServiceNette__cacheJournal()
 	{
-		$service = new Nette\Caching\Storages\FileJournal('/var/www/zefola/app/../temp');
+		$service = new Nette\Caching\Storages\FileJournal('/var/www/nixla/app/../temp');
 		return $service;
 	}
 
@@ -247,7 +246,7 @@ class SystemContainer extends Nette\DI\Container
 	 */
 	protected function createServiceNette__database__default()
 	{
-		$service = new Nette\Database\Connection(NULL, NULL, NULL, NULL);
+		$service = new Nette\Database\Connection('sqlite:/var/www/nixla/app/db/share.db', NULL, NULL, NULL);
 		$service->setCacheStorage($this->getService('cacheStorage'));
 		Nette\Diagnostics\Debugger::$blueScreen->addPanel('Nette\\Database\\Diagnostics\\ConnectionPanel::renderException');
 		$service->setDatabaseReflection(new Nette\Database\Reflection\DiscoveredReflection($this->getService('cacheStorage')));
@@ -348,7 +347,7 @@ class SystemContainer extends Nette\DI\Container
 	 */
 	protected function createServiceNette__presenterFactory()
 	{
-		$service = new Nette\Application\PresenterFactory('/var/www/zefola/app', $this);
+		$service = new Nette\Application\PresenterFactory('/var/www/nixla/app', $this);
 		return $service;
 	}
 
@@ -370,7 +369,7 @@ class SystemContainer extends Nette\DI\Container
 	 */
 	protected function createServiceNette__templateCacheStorage()
 	{
-		$service = new Nette\Caching\Storages\PhpFileStorage('/var/www/zefola/app/../temp/cache', $this->getService('nette.cacheJournal'));
+		$service = new Nette\Caching\Storages\PhpFileStorage('/var/www/nixla/app/../temp/cache', $this->getService('nette.cacheJournal'));
 		return $service;
 	}
 
@@ -391,6 +390,16 @@ class SystemContainer extends Nette\DI\Container
 	protected function createServiceNette__userStorage()
 	{
 		$service = new Nette\Http\UserStorage($this->getService('session'));
+		return $service;
+	}
+
+
+	/**
+	 * @return Test\Pages
+	 */
+	protected function createServicePages()
+	{
+		$service = new Test\Pages($this->getService('database'));
 		return $service;
 	}
 

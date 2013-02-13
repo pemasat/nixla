@@ -7,11 +7,8 @@
 common:
 	parameters:
 		database:
-			driver: pdo
-			host: localhost
-			dbname: test
-			user:
-			password:
+			driver: sqlite
+			host: %appDir%/db/share.db
 
 
 	php:
@@ -26,16 +23,18 @@ common:
 
 		database:
 			default:
-				class: NConnection
-				arguments: [sqlite:%appDir%/share.db]
+				dsn: '%database.driver%:%database.host%'
 		debugger:
 			bar: [NetteExtras\XDebugHelper()]
 
 
 	services:
 		database: @Nette\Database\Connection
-
 		authenticator: Authenticator( @database::table(users) )
+		pages: Test\Pages( @database )
+
+		
+		
 
 
 	factories:
