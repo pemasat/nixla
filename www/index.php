@@ -9,6 +9,9 @@ define('APP_DIR', WWW_DIR . '/../app');
 // absolute filesystem path to the libraries
 define('LIBS_DIR', WWW_DIR . '/../libs');
 
+// absolute filesystem path to the libraries
+define('WEB_DIR', WWW_DIR . '/../web');
+
 // uncomment this line if you must temporarily take down your site for maintenance
 // require APP_DIR . '/templates/maintenance.phtml';
 

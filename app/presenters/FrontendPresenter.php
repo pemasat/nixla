@@ -11,21 +11,24 @@ class FrontendPresenter extends BasePresenter {
 
 	public function renderDefault() {
 		\Nette\Diagnostics\FireLogger::log('555555555555555555555555555');
+		$this->template->setFile(APP_DIR . '/templates/umcaca.latte');
 	}
 	
-	public function renderCache() {
-		\Nette\Diagnostics\FireLogger::log('44444444444444444444');
-		$dir = WWW_DIR . '/../web/zefola.cz/cache/';
+	public function renderCache($file) {
+		header('Content-type: image/gif');
+		readfile($file);
+		exit;
+		
+		$dir = WWW_DIR . '/../web/www.nixla.cz/cache/';
 		foreach (Finder::findFiles('*.pdf')->in($dir) as $key => $file) {
-			//header('Content-Disposition: attachment; filename='.basename($file));
 			//\Nette\Http\Request::
 			//header('Content-type: image/gif');
-			/*
+			/* 
 			header('Content-type: application/pdf');
 			ob_clean();
 			flush();
-			readfile('/var/www/zefola/www/zefola.cz/cache/behani21.pdf');
-			exit;*/
+			readfile('/var/www/www.nixla.cz/web/www.nixla.cz/cache/behani21.pdf');
+			exit; */
 		}
 		$aaa = new \Nette\Http\Response();
 		$this->template->setFile(APP_DIR . '/templates/umcaca.latte');

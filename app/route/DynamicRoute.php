@@ -31,6 +31,30 @@ class DynamicRoute extends \Nette\Application\Routers\Route {
 			return $appRequest;
 		}
 		
+		// musím si přeložit host, kvůli localhostu to není dané
+		if (
+			strpos($httpRequest->url->host, '.localhost') !== false && 
+			!\Nette\Environment::isProduction()
+		) { // jsme na localhostu
+			$host = substr($httpRequest->url->host, 0, strripos($httpRequest->url->host, '.localhost')); // musíme si doménu osamostatnit od .localhost
+			$host = str_replace('_', '.', $host); // na lokálu mám místo teček podtržení
+		} else { // jsme na produkci
+			$host = $httpRequest->url->host;
+		}
+		
+		\Nette\Diagnostics\FireLogger::log('=============');
+		// zkusím zda je soubor již v cache
+		if (is_file(WEB_DIR . '/' . $host . '/cache' . $httpRequest->url->path)) {
+			return new Nette\Application\Request('Frontend', 'POST', array(
+				'action' => 'cache',
+				'file' => WEB_DIR . '/' . $host . '/cache' . $httpRequest->url->path
+			));
+		}
+		
+
+		
+
+		
 		
 		
 
@@ -41,12 +65,11 @@ class DynamicRoute extends \Nette\Application\Routers\Route {
 		*/
 
 		// $pages = $this->context->createPages();
-		\Nette\Diagnostics\FireLogger::log('asasa');
-		\Nette\Diagnostics\FireLogger::log($this);
+		\Nette\Diagnostics\FireLogger::log($httpRequest->url);
 		\Nette\Diagnostics\FireLogger::log($this->context);
 		
 		$data = array(
-			'action' => 'cache'
+			'action' => 'default'
 		);
 		return new Nette\Application\Request('Frontend', 'POST', $data);
 	}
