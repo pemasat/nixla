@@ -6,9 +6,12 @@
 #
 common:
 	parameters:
-		database:
+		databaseShare:
 			driver: sqlite
 			host: %appDir%/db/share.db
+		database:
+			driver: sqlite
+			host: %appDir%/../web/www.nixla.cz/db/web.db
 
 
 	php:
@@ -29,9 +32,12 @@ common:
 
 
 	services:
+		databaseShare: @Nette\Database\Connection
 		database: @Nette\Database\Connection
-		authenticator: Authenticator( @database::table(users) )
-		pages: Test\Pages( @database )
+		authenticator: Authenticator( @databaseShare::table(users) )
+		page: Nixla\Page( @database )
+		datatype: Nixla\Datatype( @databaseShare )
+		
 
 		
 		

@@ -42,7 +42,6 @@ class DynamicRoute extends \Nette\Application\Routers\Route {
 			$host = $httpRequest->url->host;
 		}
 		
-		\Nette\Diagnostics\FireLogger::log('=============');
 		// zkusím zda je soubor již v cache
 		if (is_file(WEB_DIR . '/' . $host . '/cache' . $httpRequest->url->path)) {
 			return new Nette\Application\Request('Frontend', 'POST', array(
@@ -51,13 +50,6 @@ class DynamicRoute extends \Nette\Application\Routers\Route {
 			));
 		}
 		
-
-		
-
-		
-		
-		
-
 		/*
 		if ($params = $this->doFilterParams($this->getRequestParams($appRequest), $appRequest, self::WAY_IN)) {
 			return $this->setRequestParams($appRequest, $params);
@@ -65,9 +57,6 @@ class DynamicRoute extends \Nette\Application\Routers\Route {
 		*/
 
 		// $pages = $this->context->createPages();
-		\Nette\Diagnostics\FireLogger::log($httpRequest->url);
-		\Nette\Diagnostics\FireLogger::log($this->context);
-		
 		$data = array(
 			'action' => 'default'
 		);

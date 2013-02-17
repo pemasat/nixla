@@ -59,8 +59,8 @@ $container->router[] = new DynamicRoute('/<path .+>', array(
     'action' => 'default',
     'path' => array(
         Route::VALUE => NULL,
-        Route::FILTER_IN => callback($container->pages, 'getIdByUrl'),
-        Route::FILTER_OUT => callback($container->pages, 'getUrlById'),
+        Route::FILTER_IN => callback($container->page, 'getIdByUrl'),
+        Route::FILTER_OUT => callback($container->page, 'getUrlById'),
     ),
 ));
 
