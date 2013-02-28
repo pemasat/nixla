@@ -9,7 +9,9 @@
 class FrontendPresenter extends BasePresenter {
 
 	public function renderDefault() {
+		$this->context->addService('testDatabase', '@databaseShare');
 		\Nette\Diagnostics\FireLogger::log('555555555555555555555555555');
+		\Nette\Diagnostics\FireLogger::log($this->context->testDatabase);
 		$this->template->asd = $this->context->page->getPage('asd');
 		\Nette\Diagnostics\FireLogger::log($this->context);
 		$this->template->setSource('CCCC');

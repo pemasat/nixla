@@ -8,12 +8,14 @@ class Page extends \Nette\Object {
 	protected $connection;
 
 
-	public function __construct(Nette\Database\Connection $db) {
+	public function __construct($db) {
 		\Nette\Diagnostics\FireLogger::log('11111111111AAAAAAAAAAAAAAAA');
 		$this->connection = $db;
 	}
 	
 	public function getPage($uri) {
+		
+		
 		$aaa = $this->getTemplate(15);
 		
 		FireLogger::log($this->connection->fetch('SELECT * FROM `datatype`'));

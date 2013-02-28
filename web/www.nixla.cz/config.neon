@@ -1,0 +1,51 @@
+#
+# SECURITY WARNING: it is CRITICAL that this file & directory are NOT accessible directly via a web browser!
+#
+# If you don't protect this directory from direct web access, anybody will be able to see your passwords.
+# http://nette.org/security-warning
+#
+common:
+	parameters:
+		databaseShare:
+			driver: sqlite
+			host: %appDir%/db/share.db
+		database:
+			driver: sqlite
+			host: %appDir%/../web/www.nixla.cz/db/web.db
+
+
+	php:
+		date.timezone: Europe/Prague
+		# session.save_path: "%tempDir%/sessions"
+		# zlib.output_compression: yes
+
+
+	nette:
+		session:
+			expiration: '+ 14 days'
+
+		database:
+			default:
+				dsn: '%database.driver%:%database.host%'
+		debugger:
+			bar: [NetteExtras\XDebugHelper()]
+
+
+	services:
+		databaseShare: @Nette\Database\Connection
+		database: @Nette\Database\Connection
+		authenticator: Authenticator( @databaseShare::table(users) )
+		page: Nixla\Page
+		datatype: Nixla\Datatype( @databaseShare )
+		
+
+		
+		
+
+
+	factories:
+
+
+production < common:
+
+development < common:
