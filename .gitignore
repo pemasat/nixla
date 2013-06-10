@@ -1,2 +1,5 @@
 /libs/XDebug-Helper/
 /libs/Nette/
+/nbproject/private/
+/temp/
+/log/
